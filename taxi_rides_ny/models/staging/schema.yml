@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: spry-bus-412003
+    schema: ny_taxi
+    
+    tables:
+      - name: green_tripdata_non_partitoned
+      - name: yellow_cab_data
